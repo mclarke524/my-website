@@ -14,3 +14,26 @@
 	padding: 60px;
 	text-align: center;
 }
+
+input[type=text], textarea {
+	width: 100%;
+	padding: 10px;
+	background-color: #38c098;
+	color: white;
+	border: 1px solid white;
+	box-sizing: border-box;
+	margin-top: 5px;
+	margin-bottom: 1px;
+	resize: vertical
+}
+
+input[type=submit] {
+	background-color: white;
+	padding: 10px 10px;
+	border: none;
+	cursor: pointer;
+}
+
+::placeholder {
+	color: white;
+}
