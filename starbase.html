@@ -16,11 +16,12 @@
     <!-- Personal CSS -->
     <link href="css/starter-template.css" rel="stylesheet">
 	<link href="css/sticky-footer-navbar.css" rel="stylesheet">
+	<link href="css/clarke.css" rel="stylesheet">
   </head>
 
   <body>
   
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark bg-navbar-green">
 	  <div class="container d-flex justify-content-between">
         <a class="navbar-brand" href="index.html">Michael Clarke's Portfolio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,8 +30,13 @@
 
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Projects</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expaded="false">Projects</a>
+			  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			    <a class="dropdown-item" href="awakening.html">Awakening</a>
+				<a class="dropdown-item active" href="starbase.html">StarBase</a>
+				<a class="dropdown-item" href="possessive.html">Possessive</a>
+			  </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="resume.html">Résumé</a>
